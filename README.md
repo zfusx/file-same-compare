@@ -8,6 +8,12 @@ A tiny Go CLI that compares two files and reports whether they differ in metadat
 go build -o fc
 ```
 
+To cross-compile a Linux binary (amd64) run:
+
+```bash
+GOOS=linux GOARCH=amd64 go build -o dist/fc-linux-amd64
+```
+
 ## Usage
 
 ```bash
